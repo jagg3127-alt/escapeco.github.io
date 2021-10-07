@@ -1,0 +1,42 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8" /> 
+    <title>Game beta</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
+    <link rel="manifest" href="logo/site.webmanifest">
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div id="game"></div>
+    <script src="./stages/preload.js"></script>
+
+    <script src="./dist/phaser-facebook.js"></script>
+    <script src="./dist/phaser-ie9.js"></script>
+    <script src="./dist/phaser-physic.js"></script>
+    <script src="./dist/phaser.js"></script>
+
+    <script type="module" src="./stages/division-screen.js"></script>
+    <script type="module" src="./stages/boot.js"></script>
+    <script type="module" src="./stages/s1.js"></script>
+    <script type="module" src="./stages/s2.js"></script>
+    <script type="module" src="./stages/s3.js"></script>
+    <script type="module" src="./stages/s4.js"></script>
+    <script type="module" src="./stages/boss.js"></script>
+    <script type="module" src="./stages/titlescreen.js"></script>
+    <script type="module" src="./game.js"></script>
+
+
+
+    <script type="module" src="./stages/settings/settings.js"></script>
+
+</body>
+</html>
